@@ -12,8 +12,10 @@ const header = {
       '😊😊Blockchain developer😊😊 with 3+ years of experience building decentralized applications on Ethereum and Hyperledger. Proficient in Solidity, JavaScript, and Go. Contributed to open-source projects and successfully launched a DeFi protocol with $10M+ in total value locked.',
     resume: 'https://example.com',
     social: {
-      linkedin: 'https://linkedin.com',
-      github: 'https://github.com',
+      email: 'nangerno@gmail.com',
+      skype: 'https://skype.com',
+      github: 'https://github.com/nangerno',
+      discord: 'https://discord.com',
     },
   }
   
@@ -59,8 +61,7 @@ const header = {
     'Material UI',
     'Git',
     'CI/CD',
-    'Jest',
-    'Enzyme',
+    'Solidity',
   
   ]
   

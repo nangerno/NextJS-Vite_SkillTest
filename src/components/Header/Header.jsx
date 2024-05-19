@@ -9,9 +9,9 @@ const Header = () => {
     <header className='header center'>
       <h3>
         {homepage ? (
-          <a href={homepage} className='link title-font font-effect-neon'>
+          <p className='title-font font-effect-neon' style={{fontSize:'2em'}}>
             {title}
-          </a>
+          </p>
         ) : (
           title
         )}

@@ -1,4 +1,9 @@
 .contact {
     flex-direction: column;
 }
-  
+.contact-item {
+    /* margin: 5em;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center; */
+}

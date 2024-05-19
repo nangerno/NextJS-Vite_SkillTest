@@ -9,7 +9,13 @@
   .project:hover {
     transform: translateY(-7px);
   }
-  
+  .project-card-image {
+    height: 200px;
+    background-image: url("pro1.gif");
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 1em;
+  }
   .project__description {
     margin-top: 1em;
   }

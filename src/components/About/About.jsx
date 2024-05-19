@@ -1,10 +1,8 @@
-import { FaGithub } from "react-icons/fa";
-import { FaSkype } from "react-icons/fa";
 import { about } from '../../portfolio'
 import './About.css'
 
 const About = () => {
-  const { name, role, description, resume, social } = about
+  const { name, role, description, resume } = about
 
   return (
     <div className='about center'>
@@ -24,30 +22,6 @@ const About = () => {
               Resume
             </span>
           </a>
-        )}
-
-        {social && (
-          <>
-            {social.github && (
-              <a
-                href={social.github}
-                aria-label='github'
-                className='link link--icon'
-              >
-                <FaGithub />
-              </a>
-            )}
-
-            {social.linkedin && (
-              <a
-                href={social.linkedin}
-                aria-label='linkedin'
-                className='link link--icon'
-              >
-                <FaSkype />
-              </a>
-            )}
-          </>
         )}
       </div>
     </div>
